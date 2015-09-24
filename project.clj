@@ -7,7 +7,8 @@
                  [org.clojure/clojure "1.6.0"]
                  [quil "2.2.6"]
                  [overtone "0.9.1"]]
-  :main hedgehog.core
+  :main hedgehog
+  .core
   :profiles {:dev {
             :plugins [[cider/cider-nrepl "0.10.0-SNAPSHOT"]]
             :dependencies [[org.clojure/tools.nrepl "0.2.7"]]}})
